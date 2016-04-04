@@ -9,3 +9,4 @@ sum2 = lambda x,y=10:x+y
 print sum2(1)       #11
 print sum2(1,100)   #101
 print sum(1,2)      #3
+#python lambda它只是一个表达式，而def则是一个语句。lambda表达式运行起来像一个函数，当被调用时创建一个框架对象
