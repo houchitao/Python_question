@@ -1,0 +1,8 @@
+#一个整数，它加上100后是一个完全平方数，再加上268又是一个完全平方数，请问该数是多少
+for n in range(10000):
+    num_sqrt1 = int((n+100)**0.5)
+    num_sqrt2 = int((n+268)**0.5)
+    if num_sqrt1*num_sqrt1==n+100 and num_sqrt2*num_sqrt2==n+268:
+        print n
+
+
