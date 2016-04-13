@@ -1,0 +1,15 @@
+year = int(input('year:\n'))
+month = int(input('month:\n'))
+day = int(input('day:\n'))
+m = [0,31,28,31,30,31,30,31,31,30,31,30,31]
+s = 0
+if year%4==0 and month>2:
+    for i in range(0,month):
+        s = s+m[i]
+    s = s+day+1
+else :
+    for i in range(0,month):
+        s = s+m[i]
+    s= s+day
+    
+print s
