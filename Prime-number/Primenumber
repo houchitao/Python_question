@@ -1,0 +1,11 @@
+from math import sqrt
+for i in range(101,200):
+    m = int(sqrt(i+1))
+    key = 1
+    for n in range(2,m+1):
+        if i % n == 0:
+            key = 0
+    if key == 1:
+        print i,'\n'
+    key = 1
+            
