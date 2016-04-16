@@ -1,0 +1,13 @@
+def tuzi(n):
+    if n <3:
+        return 1
+    else:
+        for k in range(n):
+          return tuzi(n-1)+tuzi(n-2)
+
+n=input('input month:\n')
+b=tuzi(n)
+print b
+
+
+
