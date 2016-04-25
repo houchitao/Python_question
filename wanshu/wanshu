@@ -1,0 +1,9 @@
+
+for i in range(1,1000):
+    s=[]
+    for factor in range(1,i):
+        if i%factor==0:
+            s.append(factor)
+    if i==sum(s):
+        print i,s
+        
